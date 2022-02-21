@@ -1,37 +1,35 @@
 * {
+  background-image: url('images/background.png');
   margin: 0;
   padding: 0;
-  background-image: url('images/background.png')
 }
 
 header {
-  justify-content: center;
   display: flex;
+  justify-content: center;
   padding: 50px;
   width: 100%;
 }
 
 header h1 {
-  height: 100px;
   color: rgb(222, 243, 218);
+  height: 100px;
 }
 
 .planetTitle h2 {
-  /* border: red solid 5px; */
-  justify-content: center;
+  color: rgb(222, 243, 218);
   display: flex;
+  justify-content: center;
   padding: 50px;
   width: 100%;
-  color: rgb(222, 243, 218);
 }
 
 .planetCard {
+  border-radius: 9px;
   display: flex;
   justify-content: center;
-  text-align: center;
-  /* border: red solid 2px; */
-  border-radius: 9px;
   padding: 20px;
+  text-align: center;
 }
 
 .planetCard img {
@@ -45,8 +43,8 @@ header h1 {
 .test {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 15px;
+  justify-content: center;
 }
 
 .mission h2 {
@@ -56,11 +54,11 @@ header h1 {
 }
 
 .missionsCard {
-  gap: 15px;
-  padding: 30px;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 15px;
+  padding: 30px;
 }
 
 .missionsCard p {
